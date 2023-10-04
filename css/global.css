@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #437f31;
+    --txt-color: #FFFF;
+    --fs-title: 30px;
+}
+
+a, li, p, h1, h2, h3 {
+    color: var(--txt-color);
+}
+
+header {
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 1rem;
+}
